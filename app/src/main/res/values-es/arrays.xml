@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language" />
+    <string name="app_name">Kitten</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Modo</string>
+    <string name="mode_view">Modo oscuro</string>
+
+    <string name="title_activity_login">Entrar</string>
+    <string name="prompt_username">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+
+    <string name="action_sign_in">Nuevo usuario? Registrate aquí!</string>
+
+</resources>
