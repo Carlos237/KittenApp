@@ -17,6 +17,7 @@ import android.content.Intent;
 
 import com.example.kittenapp.R;
 import com.example.kittenapp.SettingsActivity;
+import com.example.kittenapp.Main2Activity;
 
 public class LoginActivity extends AppCompatActivity {
     EditText username, password;
@@ -62,7 +63,8 @@ public class LoginActivity extends AppCompatActivity {
         if (username.equals("admin") && password.equals("adminpass")) {
             Toast.makeText(getApplicationContext(),
                     "Redirecting...",Toast.LENGTH_SHORT).show();
-            setContentView(R.layout.activity_home);
+            Intent intent = new Intent(this,  Main2Activity.class);
+            startActivity(intent);
         }else{
             Toast.makeText(getApplicationContext(),
                     "Wrong Credentials", Toast.LENGTH_SHORT).show();

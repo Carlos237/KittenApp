@@ -3,8 +3,9 @@
     <string-array name="language" />
     <string name="app_name">Kitten</string>
     <string name="title_home">Inicio</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notificaciones</string>
+    <string name="title_adoption">Adopcion</string>
+    <string name="title_maps">Mapa</string>
+    <string name="title_QA">Ayuda</string>
     <string name="title_activity_settings">Ajustes</string>
 
     <!-- Preference Titles -->
@@ -18,5 +19,7 @@
     <string name="action_sign_in">Nuevo usuario? Registrate aquí!</string>
     <string name="action_sign_in_short" >Registrar</string>
     <string name="action_submit" >Enviar</string>
+
+
 
 </resources>
