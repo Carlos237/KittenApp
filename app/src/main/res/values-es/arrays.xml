@@ -16,5 +16,7 @@
     <string name="prompt_password">Contraseña</string>
 
     <string name="action_sign_in">Nuevo usuario? Registrate aquí!</string>
+    <string name="action_sign_in_short" >Registrar</string>
+    <string name="action_submit" >Enviar</string>
 
 </resources>
