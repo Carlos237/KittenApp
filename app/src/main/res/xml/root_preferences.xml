@@ -25,6 +25,13 @@
             android:key="viewMode"
             android:title="@string/mode_view" />
 
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/brew_array"
+            android:entryValues="@array/brew_array"
+            android:key="list_preference_1"
+            android:title= "@string/daltonism"/>
     </PreferenceCategory>
+
 
 </PreferenceScreen>

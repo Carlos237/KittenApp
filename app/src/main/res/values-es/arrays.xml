@@ -20,6 +20,11 @@
     <string name="action_sign_in_short" >Registrar</string>
     <string name="action_submit" >Enviar</string>
 
-
+    <string name="daltonism">Daltonismo</string>
+    <string-array name="brew_array">
+        <item>Protanopia (Ausencia del color rojo)</item>
+        <item>Deuteranopia (Ausencia del color verde)</item>
+        <item>Tritanopia (Ausencia del color azul)</item>
+    </string-array>
 
 </resources>

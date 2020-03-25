@@ -15,6 +15,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 import android.content.Intent;
 
+import com.example.kittenapp.MainActivity;
 import com.example.kittenapp.R;
 import com.example.kittenapp.SettingsActivity;
 import com.example.kittenapp.Main2Activity;
@@ -29,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
+                R.id.navigation_home, R.id.navigation_adoption, R.id.navigation_maps, R.id.navigation_qa)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
