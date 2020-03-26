@@ -31,6 +31,19 @@
             android:entryValues="@array/brew_array"
             android:key="list_preference_1"
             android:title= "@string/daltonism"/>
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/blindness_array"
+            android:entryValues="@array/blindness_array"
+            android:key="list_preference_2"
+            android:title= "@string/blindness"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/fontsize_array"
+            android:entryValues="@array/fontsize_array"
+            android:key="list_preference_3"
+            android:title= "@string/fontSize"/>
     </PreferenceCategory>
 
 

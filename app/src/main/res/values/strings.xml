@@ -28,4 +28,17 @@
         <item>Tritanopia (Absence of blue color)</item>
     </string-array>
 
+    <string name="blindness">Blindness</string>
+    <string-array name="blindness_array">
+        <item>Deafblindess </item>
+        <item>Blindness</item>
+    </string-array>
+
+    <string name="fontSize">Font size</string>
+    <string-array name="fontsize_array">
+        <item>12 </item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
 </resources>

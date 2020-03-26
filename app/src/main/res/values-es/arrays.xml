@@ -26,5 +26,16 @@
         <item>Deuteranopia (Ausencia del color verde)</item>
         <item>Tritanopia (Ausencia del color azul)</item>
     </string-array>
-
+    <string name="blindness">Blindness</string>
+    <string-array name="blindness_array">
+        <item>Sordoceguera </item>
+        <item>Ceguera</item>
+    </string-array>
+    <string name="fontSize">Tamaño de letra</string>
+    <string-array name="fontsize_array">
+        <item>12 </item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
 </resources>
