@@ -15,7 +15,6 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 import android.content.Intent;
 
-import com.example.kittenapp.MainActivity;
 import com.example.kittenapp.R;
 import com.example.kittenapp.SettingsActivity;
 import com.example.kittenapp.Main2Activity;
