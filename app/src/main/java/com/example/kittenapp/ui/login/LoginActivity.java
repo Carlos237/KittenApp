@@ -17,7 +17,7 @@ import android.content.Intent;
 
 import com.example.kittenapp.R;
 import com.example.kittenapp.SettingsActivity;
-import com.example.kittenapp.Main2Activity;
+import com.example.kittenapp.HomeActivity;
 
 public class LoginActivity extends AppCompatActivity {
     EditText username, password;
@@ -55,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void goSettings(){
+        setContentView(R.layout.settings_activity);
         Intent intent = new Intent(this,SettingsActivity.class);
         startActivity(intent);
     }
@@ -63,7 +64,7 @@ public class LoginActivity extends AppCompatActivity {
         if (username.equals("admin") && password.equals("adminpass")) {
             Toast.makeText(getApplicationContext(),
                     "Redirecting...",Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(this,  Main2Activity.class);
+            Intent intent = new Intent(this,  HomeActivity.class);
             startActivity(intent);
         }else{
             Toast.makeText(getApplicationContext(),

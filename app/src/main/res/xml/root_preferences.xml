@@ -20,7 +20,7 @@
     <PreferenceCategory app:title="@string/messages_header">
 
         <SwitchPreference
-
+            android:id="@+id/mySwitch"
             android:defaultValue="false"
             android:key="viewMode"
             android:title="@string/mode_view" />

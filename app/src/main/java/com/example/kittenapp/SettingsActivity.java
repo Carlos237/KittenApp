@@ -1,9 +1,12 @@
 package com.example.kittenapp;
 
 import android.os.Bundle;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.preference.PreferenceFragmentCompat;
 
 
@@ -18,6 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
                 .replace(R.id.settings, new SettingsFragment())
                 .commit();
         ActionBar actionBar = getSupportActionBar();
+
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
@@ -30,3 +34,6 @@ public class SettingsActivity extends AppCompatActivity {
         }
     }
 }
+
+
+
