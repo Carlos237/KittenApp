@@ -55,7 +55,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void goSettings(){
-        setContentView(R.layout.settings_activity);
         Intent intent = new Intent(this,SettingsActivity.class);
         startActivity(intent);
     }
